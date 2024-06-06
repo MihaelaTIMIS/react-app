@@ -1,0 +1,94 @@
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 6px;
+  text-align: left;
+  padding: 3% 5% 3% 5%;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+.nb_characters {
+  float: right;
+}
+
+.btnCentered {
+  display: flex;
+  justify-content: center;
+}
+
+.divContent {
+  padding: 2%;
+}
+
+.ant-form-item-control {
+  line-height: normal;
+}
+
+.save-and-close-mobile{
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .gx-card .ant-card-body {
+    padding: 5px;
+  }
+
+  .gx-container-wrap .gx-main-content-wrapper  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .show-exercise-btn {
+    width: 100%;
+  }
+
+  .edit-exercise-buttons {
+    display: block;
+  }
+  .price-row {
+    display: flex;
+    flex-flow: inherit;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .gx-container-wrap .gx-main-content-wrapper {
+    padding: 0px;
+  }
+
+  .steps-content {
+    padding: 3% 7% 3% 7% !important;
+  }
+
+  #project-step1_subCategory {
+    width: 280px !important;
+  }
+
+  .ant-modal {
+    width: 100% !important;
+    max-width: calc(95vw);
+  }
+
+  .show-exercise-btn {
+    width: 60%;
+  }
+  video {
+    height: 130px;
+  }
+
+  .ant-divider.ant-divider-vertical {
+    display: none;
+  }
+  
+  .input-price-number{
+    width: 60px;
+  }
+
+  .save-and-close-desktop{
+    display: none;
+  }
+
+  .save-and-close-mobile{display: contents;}
+}
+

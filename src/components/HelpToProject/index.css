@@ -1,0 +1,23 @@
+
+  .anticon.anticon-check-circle {
+    vertical-align: 0.8em;
+}
+@media screen and (max-width: 991px) {
+
+    .gx-container-wrap .gx-main-content-wrapper {
+        padding-left: 0; 
+        padding-right: 0; 
+    }
+    
+    .ant-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ant-col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+ 
+  }

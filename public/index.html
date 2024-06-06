@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <link rel="stylesheet" href="/loader.css" />
+  
+  <script src="https://widget.cloudinary.com/v2.0/global/all.js" ></script>
+  <script src="https://product-gallery.cloudinary.com/all.js" ></script>
+
+  <script>
+    /* preset: %REACT_APP_VIDEO_CLOUDINARY_UPLOADPRESET% */
+    /* API key: %REACT_APP_VIDEO_CLOUDINARY_APIKEY% */
+    cloudinary.setCloudName("%REACT_APP_VIDEO_CLOUDINARY_CLOUDNAME%");
+  </script>
+
+  <title>Spliik - Apprendre, Faire, Echanger, Réussir</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GOOGLE_ANALYTICS%"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '%REACT_APP_GOOGLE_ANALYTICS%');
+  </script>
+
+
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root">
+    <div class="loader loading">
+      <img src="/LogoSPLIIK_vertical_final.png" alt="loader" width="200px">
+    </div>
+  </div>
+  <div>
+  </div>
+</body>
+
+</html>

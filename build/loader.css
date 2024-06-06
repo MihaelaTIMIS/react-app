@@ -1,0 +1,60 @@
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");*/
+
+
+div.spliik-card-profil-admin > div.ant-card-body > div > div.ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar > div > div > div > div > div:nth-child(1) > div:nth-child(1) {
+  margin-right: 35px !important;
+}
+
+div.spliik-card-profil-admin > div.ant-card-body > div > div.ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar > div > div > div > div > div:nth-child(1) > div:nth-child(3) {
+  margin-right: 35px !important;
+}
+
+div.spliik-card-profil > div.ant-card-body > div > div.ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar > div > div > div > div > div:nth-child(1) > div:nth-child(2) {
+  margin-right: 35px !important;
+}
+
+div.spliik-card-profil .ant-tabs-tab,
+div.spliik-card-profil-admin .ant-tabs-tab {
+  min-width: 115px !important;
+  text-align: center !important;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#app-site {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: 60px;
+  height: 100vh;
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+
+.loading {
+  width: 120px;
+}
+
+/*# sourceMappingURL=loader.css.map */
